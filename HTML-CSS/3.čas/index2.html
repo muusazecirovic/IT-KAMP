@@ -1,0 +1,70 @@
+<h2>Forme</h2>
+<p>Na ovoj stranici ćemo odraditi forme(one najvažnije) i videti na koji nacin funkcioniše prijavljivanje na nekoj drustvenoj mreži.</p>
+<form action="./index2.html"></form>  
+
+<label for="name">Unesite svoje ime:</label>
+<input type="text" name="Ime" id="name" placeholder="Unesite ime" required> <br>
+
+<label for="lastname">Unesite svoje prezime:</label>
+<input type="text"name="Prezime" id="lastname" placeholder="Unesite svoje prezime"required><br>
+
+<label for="email">email</label>
+<input type="email"name="email"id="email"placeholder="Unesite svoj email" required><br>
+
+
+<label for="pass">Unesite šifru</label>
+<input type="password"name="šifra"id="pass" required><br>
+
+<label for="age">Unesite svoje godine:</label>
+<input type="number"name="Godine"id="age"min="18" max="120" step="3"><br>
+
+<label for="birthdate">Unesite datum rođenja</label>
+<input type="date"name="Datum rođenja"id=birthdate min="1900-01-01"max="2022-01-01"><br><br>
+
+<p>Potvrdite da niste robot</p>
+<label for="Human">I am Human</label>
+<input type="checkbox"name=Human id="Human"><br>
+
+<p>Odaberite vaše omiljeno voće:</p>
+
+<label for="Banana">Banana</label>
+<input type="checkbox"name="Banana" id="Banana"><br><br>
+
+
+<label for="Kruška">Kruška</label>
+<input type="checkbox"name="Kruška" id="Kruška"><br><br>
+
+
+<label for="Jabuka">Jabuka</label>
+<input type="checkbox"name="Jabuka" id="Jabuka"><br><br>
+
+
+<label for="Mango">Mango</label>
+<input type="checkbox"name="Mango" id="Mango"><br><br>
+
+
+<p>Unesite pol</p>
+<label for="male">M</label>
+<input type="radio"name="pol"id="male" value="male"><br><br>
+
+
+<label for="female">Ž</label>
+<input type="radio"name="pol"id="female" value="female"><br><br>
+
+<label for="eyecolor">Unesite boju ociju</label>
+<select name="eyecolor" id="eyecolor">
+    <option value="Green">Zelena</option>
+    <option value="Blue">Plava</option>
+    <option value="Black"selected>Crna</option>
+
+</select> <br><br>
+
+<label for="color">Unesite omiljenu boju</label>
+<input type="color"name="boja"id="color"><br><br>
+
+<br><br>
+<button> <type="reset">Resetuj sve podatke</button>
+<button> <type="sumbit">Potvrdi</button>
+    </form>
+</body>
+</html>

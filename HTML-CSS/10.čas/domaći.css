@@ -1,0 +1,46 @@
+body{
+background-color: rgb(154, 249, 249);
+background-image: url("86.jpg");
+
+}
+/* table tr :last-child */
+/* table tr:first-of-type(2) td :first-of-type(4) */
+/* table tr :nth-child() */
+
+
+
+
+.tabela{
+background-color: rgba(0, 164, 253,0.4);
+color: rgb(0, 0, 81);
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+width: 800px;
+height: 350px;
+box-shadow: 10px 10px 10px 10px rgb(13, 0, 253);
+border: 2px dashed rgb(146, 44, 210);
+margin: 50px auto;
+} 
+
+
+.tabela tr :first-of-type(1) td :first-of-type(4)
+{
+background-color: chartreuse;
+color: blueviolet;
+
+} 
+
+.tabela img:hover {
+content: url("86.jpg");
+
+}
+
+
+/* .tabela td :last-child{ */
+
+/* } */
+.tabela :hover {
+background: url("86.jpg") no-repeat;
+}

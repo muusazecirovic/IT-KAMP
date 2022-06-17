@@ -1,0 +1,29 @@
+.h1{
+background-color: aquamarine;
+width: 400px; ;
+height: 300px;
+margin: 10px 20px 10px 15px ;
+padding: 15px;
+}
+
+
+.h11{
+background-color: rgb(43, 172, 212);
+width: 400px; ;
+height: 300px;
+margin:  30px auto ;
+padding: 15px 30px;
+border: 3px dotted rgb(184, 20, 110);
+color: blueviolet;
+border-top-left-radius: 8px;
+}
+.h11 p{
+color: blue;
+
+
+
+}
+.h11 p:hover{
+
+background-color: rgb(212, 45, 45);
+}

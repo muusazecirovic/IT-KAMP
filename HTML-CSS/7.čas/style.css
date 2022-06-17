@@ -1,0 +1,38 @@
+h1{
+background-color: aquamarine;
+font-size:  40px;
+color: darkblue;
+}
+h2{
+background-color: rgb(14, 81, 133);
+color: blueviolet;
+font-size: 30px;
+}
+h3{
+font-size: 30px;
+color: rgb(21, 17, 16);
+background-color: rgb(230, 32, 138);
+}
+h4{
+font-size: 35px;
+background-color: black;
+color: white;
+}
+h5{
+color: violet;
+background-color: rgb(23, 132, 241);
+font-size: 35px;
+}
+h6{
+color: black;
+background-color: black;
+
+}
+p{
+background-color: aqua;
+color: aqua;
+
+}
+
+
+

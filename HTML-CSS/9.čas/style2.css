@@ -1,0 +1,68 @@
+body {background-color: rgb(67, 232, 207);
+}
+
+
+.slika{
+width: 600px;
+height: 250px;
+margin: 10px 30px 0px 30px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+background-color: blueviolet;
+
+}
+.slika img:hover {
+content: url(luffy.png);
+
+}
+
+
+
+.text{
+margin: -5px 30px 10px 30px;
+padding: 15px 30px;
+width: 540px;
+height: 400px;
+background-color: rgb(48, 213, 119);
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border: 2px rgb(68, 27, 182);
+/* box-shadow: 4px 4px 8px rgb(9, 1, 17); */
+/* opacity: 0.9; */
+}
+
+
+.text h3{
+margin: 30px 0px 0px 0px;
+padding: 5px;
+
+
+}
+p{
+font-size: 18px;
+margin: -20px 0px 0px 0px;
+text-align: justify;
+/* text-transform: uppercase; sva slova velika*/
+/* text-transform: capitalize; pocetno slovo reci veliko */
+/* text-align: center; pomeramo poziciju texta*/
+/* text-indent: 20px;za uvlacenje reda */
+/* text-align-last: right;za menjanje pozicije poslednjeg reda */
+}
+/* .text h3{ */
+/* padding-left: 0px; */
+/* padding-right: 0px; */
+
+
+
+/* } */
+
+.text p :hover{
+background-color: rgb(90, 48, 130);
+
+
+}
+
+
+/* table tr :last-child */
+/* table tr:first-of-type(2) td :first-of-type(4) */
+/* table tr :nth-child() */
