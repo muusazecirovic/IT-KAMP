@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+*{margin: 0px;}
+body{
+font-family: 'Exo 2', sans-serif;
+}
+h1{
+text-align: center;
+background-color: aqua;
+width: 600px;
+margin: 0px auto;
+padding: 20px 10px;
+}
+p{
+margin: 0px auto;
+text-align: justify ;
+background-color: aqua;
+width: 600px;
+padding: 10px;
+}
