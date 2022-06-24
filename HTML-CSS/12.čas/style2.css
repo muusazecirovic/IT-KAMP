@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body{
+    background-color: rgb(154, 249, 249);
+    background-image: url("86.jpg");
+    color: rgb(0, 30, 90);
+    margin: 6px;
+
+}
 .text{
 padding: 15px 30px;
-width: 400px;
-height: 400px;
-background-color: rgb(30, 114, 210);
+width: 440px;
+height: 600px;
+background-color: rgb(30, 210, 189);
 border-bottom-left-radius: 8px;
 border-bottom-right-radius: 8px;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
-margin: 20px auto;
+margin:  20px auto;
 /* overflow: u koliko ne moze da stane odredjeni text u kontejneru ; */
 /* display: none; */
 /* visibility: hidden; */
@@ -16,17 +24,50 @@ margin: 20px auto;
 
 
 #nzm{
-color: rgb(0, 0, 0);
+color: rgb(6, 0, 49);
 margin: 6px;
 }
 
 
 h1{
-color: aqua;
-
+color: rgb(81, 0, 255);
+text-align: center;
 }
 
 .icon{
+margin: 6px;
+
+}
+#restoran{
+margin: 6px;
+
+
+}
+
+#broj{
+margin: 6px;
+
+
+
+}
+.slika{
+width: 500px;
+height: 250px;
+margin: -20px -10px 0px -30px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+#mail{
+margin: 6px;
+}
+#upozorenje{
+margin: 6px;
+
+}
+#idk{
+margin: 6px;
+}
+#sta{
 margin: 6px;
 
 }
