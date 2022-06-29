@@ -1,0 +1,38 @@
+*{
+margin: 0px;
+
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+/* font-size: 2em; */
+}
+.main{
+margin: 20px auto;
+width: 500px;
+height: 500px;
+background-color: aqua;
+font-size: 20px;
+}
+
+.child{
+font-size: 1vw;
+
+}
+
+/* Absolute lenghts */
+/* 1.cm=37px centimeter*/
+/* 2.mm milimeter*/
+/* 3.in  inch*/
+/* 4.px pixel*/
+/* 5.pt points*/
+/* 6.pc picas */
+
+/* Relative lengts */
+/* 1.em */
+/* 2.rem */
+/* 3.vw sirina browsera utice na velicinu vw-a */
+/* 4.vh  sirina browsera utice na velicinu vh-a*/
+/* 5.vmin */
+/* 6.vmax */
+/* 7.% */
+/* text decoration-none */

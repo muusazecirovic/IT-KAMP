@@ -1,0 +1,28 @@
+*{
+margin: 0px;
+
+
+}
+body{
+font-family: "Exo 2", sans-serif;
+}
+img{
+float: left;
+}
+p{
+text-align: right;
+margin-right: 15px;
+}
+.prvi{
+clear: both;
+height: 300px;
+width: 300px;
+background-color: blue;
+float: left;
+}
+.drugi{
+height: 300px;
+width: 300px;
+background-color: aqua;
+clear: both;
+}
