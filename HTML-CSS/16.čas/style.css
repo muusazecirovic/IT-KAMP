@@ -1,0 +1,40 @@
+*{
+margin: 0px;
+
+}
+.div{
+width: 100vw;
+height: 100vh;
+background-color: aqua;
+position: relative;
+}
+.box1{
+width: 100px;
+height: 100px;
+background-color: darkgoldenrod;
+}
+
+
+
+.box2{
+width: 100px;
+height: 100px;
+background-color: cornflowerblue;
+
+}
+
+
+.box3{
+width: 100px;
+height: 100px;
+background-color: blueviolet;
+}
+
+
+
+.box4{
+width: 100px;
+height: 100px;
+background-color: blue;
+
+}
