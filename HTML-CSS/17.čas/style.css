@@ -3,6 +3,52 @@
 }
 .heder{
 background-color: aqua;
+width: 100vw;
+height: 50px;
+color: rgb(95, 54, 189);
+padding-top: 20px ;
+position: relative;
+bottom: 10px;
+}
+a{
+position: relative;
+left: 600px;
+bottom: 30px;
+text-decoration: none;
+}
+.text{
+width: 100vw;
+height: 100%;
+background-color: rgb(191, 253, 129);
+margin-top: -10px;
 
+}
+p{
+text-align: justify;
+position: relative;
+font-size: 14px;
+margin-left: 100px;
+top: 100px;
+float: right;
+padding-right: 450px;
+}
 
+.d{
+text-align: justify;
+position: relative;
+left: 500px;
+padding: 150px;
+bottom: 100px;
+}
+img{
+    margin-left: 100px;
+position: relative;
+bottom: 100px;
+height: 500px;
+width: 500px;
+
+}
+.idk{
+
+text-align: center;
 }
