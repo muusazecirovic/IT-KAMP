@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.parent{
+margin: 0px auto;
+    width: 60vw;
+height: 60vw;
+background-color: rgb(118, 16, 220);
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+.box1{
+    align-self: start;
+width: 100px;
+order: 2;
+height: 100px;
+background-color: burlywood
+
+}
+.box2{
+    align-self: center;
+    width: 100px;
+order: 1;
+    height: 100px;
+    background-color: rgb(135, 219, 222)
+
+
+}
+.box3{
+    align-self: end;
+    width: 100px;
+order: 3
+
+;
+    height: 100px;
+    background-color: rgb(213, 42, 204)
+
+
+}

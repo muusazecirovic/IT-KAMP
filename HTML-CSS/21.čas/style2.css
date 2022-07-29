@@ -1,0 +1,56 @@
+*{
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+
+.parent{
+margin: 0px auto;
+width: 500px;
+height: 400px;
+background-color: blueviolet;
+
+
+
+}
+.child{
+width: 150px;
+height: 150px;
+background-color: coral;
+}
+.parent:hover .child{
+animation: top-to-bottom 1s ease-in forwards infinite alternate;
+
+}
+@keyframes top-to-bottom{
+
+33% {
+    transform: translate(350px,80px);
+
+}
+66% {
+
+transform :translate(350px,160px);
+
+}
+
+
+
+100% {
+background-color: blue;
+    transform: translateY(250px);
+border-radius: 50%;
+
+}
+
+
+
+}

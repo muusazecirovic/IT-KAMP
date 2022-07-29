@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+}
+
+
+
+.nzm{
+background-color: darkmagenta;
+width: 30vw; 
+height: 4rem;
+border: 2px dashed;
+}
+
+.nzv{
+background-color: crimson;
+width: 30vw; 
+height: 4rem;
+border: 2px dashed;
+}
+.nzt{
+background-color: mediumslateblue;
+width: 30vw; 
+height: 4rem;
+border: 2px dashed;
+}

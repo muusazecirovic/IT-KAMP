@@ -1,0 +1,101 @@
+*{
+margin: 0 auto;
+
+}
+
+
+
+
+.heder{
+width: 100vw;
+height: 60px;
+background-color: rgb(77, 196, 209);
+color: rgb(58, 46, 228);
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+h1{
+display: flex;
+flex-grow: 1;
+justify-content: space-between;
+}
+
+.nzm{
+position: relative;
+top: 10px;
+left: 40px;
+}
+a{
+text-decoration: none;
+margin: 10px;
+position: relative;
+right: 100px;
+top: 13px;
+
+}
+button{
+padding: 10px;
+position: relative;
+right: 100px;
+background-color: aqua;
+}
+.ostalo{
+width: 100vw;
+height: 100vw;
+background-color: blanchedalmond;
+
+}
+.box1{
+width: 220px;
+height: 220px;
+background-color: blueviolet;
+position: relative;
+top: 0px;
+right: 350px;
+}
+.box2{
+position: relative;
+right: 110px;
+bottom: 200px;
+width: 220px;
+    height: 220px;
+background-color: darkorange;
+
+
+}
+
+.box3{
+position: relative;
+right: 350px;
+bottom: 200px;
+width: 220px;
+    height: 220px;
+background-color: darkgoldenrod;
+
+}
+.box4{
+position: relative;
+    right: 110px;
+bottom: 400px;
+width: 220px;
+    height: 220px;
+background-color: crimson;
+
+}
+
+
+img{
+display: flex;
+align-items: right;
+position: relative;
+left: 300px;
+bottom: 880px;
+width: 460px;
+height:450px;
+}
+button{
+height: 30px;
+position: relative;
+top: 13px;
+}

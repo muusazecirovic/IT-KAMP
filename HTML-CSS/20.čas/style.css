@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
+.parent{
+margin: 0px auto;
+    width: 80vw;
+height: 40vw;
+background-color: rgb(16, 220, 179);
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+}
+
+.box1{
+/* flex-grow: 1; */
+width: 100px;
+height: 100px;
+background-color: burlywood
+
+}
+.box2{
+    /* flex-grow: 1; */
+    width: 100px;
+
+    height: 100px;
+    background-color: rgb(45, 81, 225)
+
+
+}
+.box3{
+    /* flex-grow: 1; */
+    width: 100px;
+    height: 100px;
+    background-color: rgb(213, 42, 204)
+
+}

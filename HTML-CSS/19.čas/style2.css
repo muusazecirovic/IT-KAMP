@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 253, 253);
+}
+
+
+.heder{
+background-color: black;
+color: aliceblue;
+display: flex;
+height: 40px;
+width: 100vw;
+}
+.text{
+align-items: flex-start;
+flex-grow: 3;
+}
+
+.drugi{
+align-items:flex-end;
+}
+img{
+display: flex;
+    margin-top: 100px;
+flex-grow: 1
+}
+
+
+
+.neki{
+display: flex;
+
+
+}
+
+p{margin-top: 100px;
+display: flex;
+    flex-grow: 2;
+}
