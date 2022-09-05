@@ -45,3 +45,47 @@ BigInt(324895872589874209858794878238792);
 
 // 1.7 Symbol - to je novi tip podatka u js koristi se za anonimne i
 //              jedinstvene vrednosti
+
+// 2.Ne primitivni tipovi podataka (Non-Primitive dyta type)
+//   Primitivni tipovi podataka koriste se za sabiranje promenljivih(Variabli)
+//   Dok za pisanje nizova koristimo ne primitivne tipove podataka
+
+//   Primjeri ne primitivnih tipova podataka:
+
+// 2.1 Array (Nizovi) - Nizovi se koriste za skladistenje vise podataka unutar jedne promenljive
+//                      Nizovi u Js-u imaju mogucnost skladistenja elemenata razlicitih
+//                      tipova podataka.
+
+// Zapisivanje nizova:
+// Niz stringova
+["Talib", "Muhammed", "Amina", "Ahmed"][
+  // Nizovi brojeva
+  (15, 17, 18, 19, 18)
+][
+  // Niz sa razlicitim tipovima podataka
+  ("Talib", 15, false, "Ahmed", 19, true)
+];
+
+//  2.2. Object(Objekti) - Objekti su glavna stvar u js u i sluze za skladistenje nekih
+//                         podataka,i oni se zapisuju po principu  ime,vrednost (name,value)
+//                         takodje mogu sadrzati razlicite tipove podataka
+//       Zapisivanje objekata:
+//{
+//  marka: "BMW";
+//  godinaproizvodnje: 2006;
+//  boja: "crna";
+//  kubikaza: "2000ks";
+//}
+
+//  2.3. Set (Setovi) - setovi su slicni ,sa razlikom kod zapisivanja izmedju ostalog
+//                      njihova najbitnija karakteristika je sto ne mogu imati duplikate
+//   Zapisivanje:
+new Set(["jabuka", "banana", "kruska", "bostan"]);
+
+//  2.4.Maps (mape) - slican je objektu ali se drugacije zapisuje
+
+//  Zapisivanje:
+new Map(["jabuka", "banana", "kruska", "bostan"]);
+
+// Svi tipovi podataka koji nisu primitivni tipovi imaju object tip kada ispitujemo
+// preko funkcije type of
