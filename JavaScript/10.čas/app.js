@@ -34,3 +34,14 @@ var rece2 = "nastavljamo sa oybiljnijim bavljenjem js om";
 rece1And2 = rece1.concat(rece2);
 
 console.log(rece1And2);
+
+// Domaci zadatak
+// Napraviti funkciju koja trazi od korisnka da unese neku recenicu,zatim funkciju koja
+// vraca datu recenicu u vise oblik(spojenu u 1 string)
+// prompt
+// recenicu ispisanu velikim slovima
+// ispisanu malim slovima
+// pola ispisano velikim pola malim slovima
+// ako se u recenici nadje skola neka bude zamenjena recju fakultet
+//neka bude ispisano prvih 10 karaktera
+//neka bude ispisano poslednjih 10 karaktera
