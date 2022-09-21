@@ -19,3 +19,6 @@ const myArrow = () => {
   let a = 14;
   return a;
 };
+
+// Dobra praksa je uvek prvo deklarisati neku funkciju pa je tek pposle toga koristiti,
+// kako bi izbegli greske u kodu
