@@ -16,3 +16,4 @@ console.log(fruits);
 // set()-Setuje vrednost za odredjeni kljuc u mapi
 fruits.set("pear", 40);
 console.log(fruits);
+yy;
