@@ -26,3 +26,6 @@ const newobj = {
 newobj.age === 27 ? console.log(newobj) : console.log("error");
 
 // Class based components su komponente bazirane na klasama i metodama
+
+// =+  -povecava i dodaje vrednost
+// ++  -increment (dodaje za 1)
